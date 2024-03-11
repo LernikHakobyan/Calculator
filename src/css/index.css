@@ -1,0 +1,201 @@
+/**/
+
+
+
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*------------------------------------------------*/
+
+
+
+
+.wrapper{
+  max-width: 1440px;
+  margin:0 auto;
+}
+
+.container{
+  max-width:780px;
+  margin:0 auto;
+}
+
+
+.Colculator{
+  display: flex;
+  justify-content: center;
+}
+
+p{
+  font-size:30px;
+  margin: 0;
+  padding:15px 0 15px 0;
+  color:white
+}
+
+.number_div{
+
+  width:75px;
+  text-align: center;
+  border:1px solid;
+  display: flex;
+  justify-content: center;
+
+}
+
+.number_div_0{
+  text-align: center;
+  width:150px;
+  border:1px solid;
+}
+
+.first_1{
+  width:75px;
+  text-align: center;
+  border:1px solid;
+  display: flex;
+  justify-content: center;
+}
+
+.operation{
+  text-align: center;
+  width:75px;
+  border:1px solid;
+}
+
+.first_row, .second_row, .third_row, .fourth_row, .fivth_row{
+  display: flex;
+}
+
+.historyInputPart{
+  max-width: 300px;
+}
+
+.historyInputPart input{
+  width: 100%;
+  background-color:hsl(0deg 0% 41.18%);
+  color:rgba(255, 255, 255, 0.562);
+  text-align: right;
+  font-size:25px;
+  padding:0px 18px 0px 18px;
+}
+
+.inputPart{
+  max-width: 300px;
+}
+
+.inputPart input{
+  width: 100%;
+  background-color:hsl(0deg 0% 41.18%);
+  color:white;
+  text-align: right;
+  font-size:25px;
+  padding:5px 18px 18px 18px;
+}
+
+button{
+
+  width:100%;
+  transition: 0.5s;
+  font-size:10px;
+}
+
+.number_div button{
+  background-color: hsl(0deg 0% 51.37%);
+}
+
+.operation button{
+  background-color:hsl(37.1deg 96.79% 51.18%);
+}
+
+.first_1 button{
+  background-color: hsl(0deg 0% 41.18%);
+}
+
+.number_div_0 button{
+  background-color: hsl(0deg 0% 51.37%);
+}
+
+button:hover{
+  background-color: rgb(128, 113, 113);
+  transition: 0.5s;
+}
+
+.HistoryUsage{
+  margin-left: 50px;
+}
+
+.HistoryUsage p{
+  color:black
+}
